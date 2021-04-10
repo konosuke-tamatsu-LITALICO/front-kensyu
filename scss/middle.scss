@@ -7,9 +7,8 @@
     font-size: 14px;
     line-height: 1.71;
     color: rgba(0, 0, 0, 0.56);
-    text-align: left;
-    outline: none;
     white-space: pre-wrap;
+    -webkit-text-size-adjust: 270%;
   }
 
   &__sub-title{
@@ -162,6 +161,7 @@
   }
 
   &__company-title{
+    -webkit-text-size-adjust: 270%;
     
     width: 100%;
     box-sizing: border-box;
