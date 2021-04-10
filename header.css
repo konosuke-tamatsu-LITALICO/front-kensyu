@@ -62,6 +62,7 @@
     text-decoration: none;
     color: #45494b; }
   .header__slide-title {
+    border-bottom: 2px solid #070000;
     display: inline-block;
     flex-shrink: 0;
     position: relative;
