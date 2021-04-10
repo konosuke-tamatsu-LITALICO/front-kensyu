@@ -1,0 +1,16 @@
+.meta {
+  text-decoration: none; }
+  .meta__header {
+    height: 179px;
+    margin-bottom: 24px; }
+  .meta__mini-header {
+    height: 92px; }
+  .meta__header-slide {
+    height: 48px;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    margin-left: -36px;
+    border-bottom: solid 1px #45494e; }
+
+/*# sourceMappingURL=meta.css.map */

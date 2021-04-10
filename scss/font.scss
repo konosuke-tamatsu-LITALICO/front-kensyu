@@ -1,0 +1,57 @@
+.font {
+  text-decoration: none;
+  width: 100%;
+
+  @mixin __company {
+    font-size: 13px;
+    margin-right: 14px;
+    max-width: 300px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  %__big {
+    transition: opacity 100ms ease 0s;
+    color: rgb(36, 40, 42) !important;
+    outline: none;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  &__big {
+    transition: opacity 100ms ease 0s;
+    color: rgb(36, 40, 42) !important;
+    outline: none;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  &__company {
+    @include __company; 
+
+    &--link {
+      @include __company; 
+      color: rgb(69, 73, 75) !important;
+    }
+
+    &--location {
+      @extend %__big;
+      color: rgb(106, 110, 113);
+    }
+  }
+
+  &__article-subtitle {
+    font-size: 16px;
+  }
+}
+
+
+
+

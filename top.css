@@ -1,0 +1,71 @@
+@charset "UTF-8";
+.top {
+  height: 56px;
+  position: relative;
+  display: flex; }
+  .top__log-box {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center; }
+  .top__log {
+    width: 29px;
+    height: 20px;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.71;
+    color: rgba(0, 0, 0, 0.56);
+    text-align: left;
+    outline: none;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    margin: 22px 19px 22px 24px; }
+  .top__face {
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    padding: 0px 12px 0px 11px; }
+  .top__scout {
+    border-left: 1px solid #e0e0e0;
+    padding-left: 16px;
+    display: inline-block;
+    position: relative;
+    padding: 0px 12px 0px 11px; }
+  .top__scout-message {
+    color: #21bddb;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600; }
+  .top__scout-message-thin {
+    color: #21bddb;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400; }
+  .top__font {
+    margin: 26px 16px 22px;
+    font-family: Poppins, "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", ヒラギノ角ゴシック, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.56);
+    white-space: nowrap; }
+  .top__left {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center; }
+  .top__right {
+    width: 100%;
+    padding: 4px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -webkit-box-pack: end;
+    justify-content: flex-end; }
+  .top__right-part {
+    box-sizing: border-box;
+    width: 48px; }
+
+/*# sourceMappingURL=top.css.map */
