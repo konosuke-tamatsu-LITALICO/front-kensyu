@@ -78,8 +78,6 @@
   }
 
   &__slide-title{
-    
-    border-bottom: 2px solid #070000;
     display: inline-block;
     flex-shrink: 0;
     position: relative;
@@ -88,7 +86,6 @@
     padding: 13px 0px;
     color: rgb(69, 73, 75);
     cursor: pointer;
-
   }
   &__slide-title-thin{
     display: inline-block;
@@ -112,8 +109,15 @@
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
-    border-bottom: solid 1px #45494e;
+    border-bottom: 1px solid rgb(235, 237, 239);
     
+  }
+
+  &__slide-underbar{
+    width: 20px;
+    margin-left: 16px;
+    border-bottom: 2px solid #070000;
+    margin-top: 10px;
   }
   
   
