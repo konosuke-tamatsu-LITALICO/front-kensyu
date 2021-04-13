@@ -6,10 +6,10 @@ font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'ヒラギノ�
 		<link rel="stylesheet"  href="resset.css">
 		<link rel="stylesheet"  href="eyecatch.css">
 		<link rel="stylesheet"  href="header.css">
-		<link rel="stylesheet"  href="middle.css">
 		<link rel="stylesheet"  href="top.css">
 		<link rel="stylesheet"  href="meetup.css">
 		<link rel="stylesheet"  href="story.css">
+		<link rel="stylesheet"  href="description.css">
 
 		<title>サンプル</title>
 	</head>
@@ -65,7 +65,7 @@ font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'ヒラギノ�
 			<img class="header__icon" src="icon.jpeg">					
 			<div  class="header__follo-btn">フォロー中</div>
 			<div class="header__company-name">株式会社LITALICO</div>
-			<div class="middle__horizon">
+			<div class="header__horizon">
 				<div class="header__company-link">http://litalico.co.jp</div>
 				<div><img src="lacation_mark.png" class="header__location-mark"></div>
 				<div class="header__company-link">東京都</div>
@@ -91,29 +91,32 @@ font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'ヒラギノ�
 			</ul>
 		</div>
 
-		<div class="middle">
-			<div class="middle__title-area">
+		<div class="description">
+			<div class="description__title-area">
 				<span>
-					<div class="middle__company-title">障害のない社会をつくる</div>
+					<div class="description__company-title">障害のない社会をつくる</div>
 				</span>		
 					<p rows="4" placeholder="事業を通じて解決したい社会課題はありますか？
 会社設立の背景にはどんなストーリーがありますか？
-目指している未来はどんなカタチをしていますか？ " maxlength="255" class="middle__title"><span><span>私たちは「障害のない社会をつくる」というビジョンを掲げ、社会の課題と向き合ってきました。
+目指している未来はどんなカタチをしていますか？ " maxlength="255" class="description__title"><span><span>私たちは「障害のない社会をつくる」というビジョンを掲げ、社会の課題と向き合ってきました。
 「障害は人ではなく、社会の側にある」という考えのもと、当事者に対する教育支援、成人当事者を対象としたキャリア開発支援に取り組んでいます。
 対人支援分野での知見を活かし、現在は、メディア運営から、当事者の家族向けライフプランニング事業、福祉施設に対する業務支援まで、幅広く事業を拡大しています。</span></span></p>
 			</div>
-			<h2 class="middle__horizon">
-				<h2 class="middle__sub-title">開催予定のミートアップ
-				<p class="middle__mini-font" style="margin-right: 7px;">他のミートアップも見る</p>
+		</div>
+
+		<div class="meetup">
+			<h2 class="meetup__horizon">
+				<h2 class="meetup__sub-title">開催予定のミートアップ
+				<p class="meetup__mini-font" style="margin-right: 7px;">他のミートアップも見る</p>
 				</h2>
 			</h2>
-			<div class="middle__overflow-x">
+			<div class="meetup__overflow-x">
 				<div style="margin: 0px 30px 0px 16px;">
-					<div class="middle__slide-margi">
-						<div class="middle__horizon">
+					<div class="meetup__slide-margi">
+						<div class="meetup__horizon">
 							<div class="meetup__content">
 								<div style="position: relative;width: 100%;">
-									<div style="background-image: url('1.png');" class="middle__mini-image">
+									<div style="background-image: url('1.png');" class="meetup__mini-image">
 										<div class="meetup__shadow"></div>
 										<div class="meetup__schedule">
 											<div class="meetup__date-font">04.24</div>
@@ -126,7 +129,7 @@ font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'ヒラギノ�
 							</div>
 							<div class="meetup__content">
 								<div style="position: relative;width: 100%;">
-									<div style="background-image: url('2.png');" class="middle__mini-image">
+									<div style="background-image: url('2.png');" class="meetup__mini-image">
 										<div class="meetup__shadow"></div>
 										<div class="meetup__schedule">
 											<div class="meetup__date-font">04.25</div>
@@ -135,11 +138,11 @@ font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'ヒラギノ�
 									</div>
 								</div>
 								<div class="meetup__target">子ども教育スタッフ</div>
-								<div class="middle__description">教室見学&ワークショップ！一人ひとりに合ったオーダーメイド教育を体感しよう</div>
+								<div class="meetup__description">教室見学&ワークショップ！一人ひとりに合ったオーダーメイド教育を体感しよう</div>
 							</div>
 							<div class="meetup__content">
 								<div style="position: relative;width: 100%;">
-									<div style="background-image: url('3.png');" class="middle__mini-image">
+									<div style="background-image: url('3.png');" class="meetup__mini-image">
 										<div class="meetup__shadow"></div>
 										<div class="meetup__schedule">
 											<div class="meetup__date-font">04.25</div>
@@ -154,12 +157,15 @@ font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'ヒラギノ�
 					</div>
 				</div>
 			</div>
-			<h2 class="middle__horizon">
-				<h2 class="middle__sub-title" style="margin-top: 60px;">注目のストーリー
-				<p class="middle__mini-font" style="margin-right: 7px;">他のストーリーも見る</p>
+		</div>
+
+		<div class="story">
+			<h2 class="story__horizon">
+				<h2 class="story__sub-title" style="margin-top: 60px;">注目のストーリー
+				<p class="story__mini-font" style="margin-right: 7px;">他のストーリーも見る</p>
 				</h2>
 			</h2>
-			<div class="middle__horizon" style="margin: 30px 30px 0px 16px; overflow-x: hidden;">
+			<div class="story__horizon" style="margin: 30px 30px 0px 16px; overflow-x: hidden;">
 				<div class="story__mini-mini-flame">
 					<img src="4.jpeg" class="story__mini-mini-image"> 
 					<div class="story__description_under">人に誇れるこの仕事で、社会の側にある障害をなくしたい。#私がLITALICOで働く理由</div>

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.middle__title {
+.description__title {
   width: 100%;
   margin-top: 16px;
   font-weight: 400;
@@ -8,7 +8,7 @@
   color: rgba(0, 0, 0, 0.56);
   white-space: pre-wrap;
   -webkit-text-size-adjust: 270%; }
-.middle__sub-title {
+.description__sub-title {
   display: flex;
   font-size: 18px;
   -webkit-box-align: center;
@@ -17,31 +17,31 @@
   color: #9da0a4;
   margin-left: 17px;
   margin-top: 60px; }
-.middle__overflow-x {
+.description__overflow-x {
   margin-top: 30px;
   overflow-x: hidden; }
-.middle__slide-margin {
+.description__slide-margin {
   margin: 0px 30px 0px 16px; }
-.middle__mini-font {
+.description__mini-font {
   margin-left: auto;
   font-weight: 400;
   font-size: 13px;
   color: rgba(0, 0, 0, 0.4);
   transition: color 100ms ease 0s;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', "ヒラギノ角ゴシック", 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ Pro W3',Roboto, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif; }
-.middle__mini-image {
+.description__mini-image {
   width: 100%;
   height: 200px;
   background-size: cover;
   background-position: center center;
   border-radius: 5px;
   margin-bottom: 6px; }
-.middle__date-font {
+.description__date-font {
   font-size: 32px;
   font-weight: 600;
   height: 32px;
   line-height: 32px; }
-.middle__yobi {
+.description__yobi {
   border: 1px solid;
   box-sizing: border-box;
   font-size: 12px;
@@ -51,7 +51,7 @@
   height: 26px;
   line-height: 26px;
   margin-left: 6px; }
-.middle__schedule {
+.description__schedule {
   position: absolute;
   top: 11px;
   left: 12px;
@@ -64,14 +64,14 @@
   align-items: center;
   transform-origin: left top;
   transform: scale(0.71875); }
-.middle__target {
+.description__target {
   padding-top: 12px;
   font-weight: 600;
   font-size: 11px;
   line-height: 1;
   color: #6a6e71;
   margin-bottom: 6px; }
-.middle__description {
+.description__description {
   font-weight: 600;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -84,7 +84,7 @@
   color: #24282a;
   transition: color 0.2s ease-in-out 0s;
   font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "ヒラギノ角ゴシック", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", Roboto, "メイリオ", Meiryo, "ＭＳ Ｐゴシック"; }
-.middle__description_under {
+.description__description_under {
   font-weight: 600;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -97,30 +97,30 @@
   color: #24282a;
   transition: color 0.2s ease-in-out 0s;
   font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "ヒラギノ角ゴシック", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", Roboto, "メイリオ", Meiryo, "ＭＳ Ｐゴシック"; }
-.middle__content {
+.description__content {
   width: calc((100% - 24px) / 2.5);
   margin-right: 16px;
   flex-shrink: 0;
   position: relative; }
-.middle__horizon {
+.description__horizon {
   display: flex; }
-.middle__mini-mini-image {
+.description__mini-mini-image {
   width: 100%;
   height: 190px;
   margin-right: 2px;
   border-radius: 5px; }
-.middle__shadow {
+.description__shadow {
   border-radius: 5px;
   width: 100%;
   height: 200px;
   background-image: radial-gradient(circle at left top, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0) 129.375px); }
-.middle__mini-mini-flame {
+.description__mini-mini-flame {
   width: calc((100% - 16px) / 2);
   margin-right: 16px;
   flex-shrink: 0; }
-.middle__title-area {
+.description__title-area {
   margin: 0px 17px; }
-.middle__company-title {
+.description__company-title {
   -webkit-text-size-adjust: 270%;
   margin-top: 30px;
   width: 100%;
@@ -132,4 +132,4 @@
   outline: none;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', "ヒラギノ角ゴシック", 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ Pro W3',Roboto, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif; }
 
-/*# sourceMappingURL=middle.css.map */
+/*# sourceMappingURL=description.css.map */

@@ -1,27 +1,41 @@
 @charset "UTF-8";
-.meetup__content {
-  width: calc((100% - 24px) / 2.5);
-  margin-right: 16px;
-  flex-shrink: 0;
-  position: relative; }
-.meetup__shadow {
-  border-radius: 5px;
+.meetup__title {
   width: 100%;
-  height: 200px;
-  background-image: radial-gradient(circle at left top, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0) 129.375px); }
-.meetup__schedule {
-  position: absolute;
-  top: 11px;
-  left: 12px;
-  z-index: 1;
-  height: 38px;
-  font-family: Poppins, "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", ヒラギノ角ゴシック, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
-  color: white;
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(0, 0, 0, 0.56);
+  white-space: pre-wrap;
+  -webkit-text-size-adjust: 270%; }
+.meetup__sub-title {
   display: flex;
+  font-size: 18px;
   -webkit-box-align: center;
   align-items: center;
-  transform-origin: left top;
-  transform: scale(0.71875); }
+  font-weight: 600;
+  color: #9da0a4;
+  margin-left: 17px;
+  margin-top: 60px; }
+.meetup__overflow-x {
+  margin-top: 30px;
+  overflow-x: hidden; }
+.meetup__slide-margin {
+  margin: 0px 30px 0px 16px; }
+.meetup__mini-font {
+  margin-left: auto;
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.4);
+  transition: color 100ms ease 0s;
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', "ヒラギノ角ゴシック", 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ Pro W3',Roboto, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif; }
+.meetup__mini-image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 5px;
+  margin-bottom: 6px; }
 .meetup__date-font {
   font-size: 32px;
   font-weight: 600;
@@ -37,6 +51,19 @@
   height: 26px;
   line-height: 26px;
   margin-left: 6px; }
+.meetup__schedule {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  z-index: 1;
+  height: 38px;
+  font-family: Poppins, "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", ヒラギノ角ゴシック, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+  color: white;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  transform-origin: left top;
+  transform: scale(0.71875); }
 .meetup__target {
   padding-top: 12px;
   font-weight: 600;
@@ -57,5 +84,52 @@
   color: #24282a;
   transition: color 0.2s ease-in-out 0s;
   font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "ヒラギノ角ゴシック", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", Roboto, "メイリオ", Meiryo, "ＭＳ Ｐゴシック"; }
+.meetup__description_under {
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 1.5;
+  font-size: 16px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  max-height: 58.5px;
+  color: #24282a;
+  transition: color 0.2s ease-in-out 0s;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "ヒラギノ角ゴシック", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", Roboto, "メイリオ", Meiryo, "ＭＳ Ｐゴシック"; }
+.meetup__content {
+  width: calc((100% - 24px) / 2.5);
+  margin-right: 16px;
+  flex-shrink: 0;
+  position: relative; }
+.meetup__horizon {
+  display: flex; }
+.meetup__mini-mini-image {
+  width: 100%;
+  height: 190px;
+  margin-right: 2px;
+  border-radius: 5px; }
+.meetup__shadow {
+  border-radius: 5px;
+  width: 100%;
+  height: 200px;
+  background-image: radial-gradient(circle at left top, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0) 129.375px); }
+.meetup__mini-mini-flame {
+  width: calc((100% - 16px) / 2);
+  margin-right: 16px;
+  flex-shrink: 0; }
+.meetup__title-area {
+  margin: 0px 17px; }
+.meetup__company-title {
+  -webkit-text-size-adjust: 270%;
+  margin-top: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.45;
+  color: rgba(0, 0, 0, 0.8);
+  outline: none;
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', "ヒラギノ角ゴシック", 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ Pro W3',Roboto, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif; }
 
 /*# sourceMappingURL=meetup.css.map */

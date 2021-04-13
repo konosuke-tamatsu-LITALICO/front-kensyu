@@ -1,13 +1,89 @@
 @charset "UTF-8";
-.story__mini-mini-flame {
-  width: calc((100% - 16px) / 2);
-  margin-right: 16px;
-  flex-shrink: 0; }
-.story__mini-mini-image {
+.story__title {
   width: 100%;
-  height: 190px;
-  margin-right: 2px;
-  border-radius: 5px; }
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(0, 0, 0, 0.56);
+  white-space: pre-wrap;
+  -webkit-text-size-adjust: 270%; }
+.story__sub-title {
+  display: flex;
+  font-size: 18px;
+  -webkit-box-align: center;
+  align-items: center;
+  font-weight: 600;
+  color: #9da0a4;
+  margin-left: 17px;
+  margin-top: 60px; }
+.story__overflow-x {
+  margin-top: 30px;
+  overflow-x: hidden; }
+.story__slide-margin {
+  margin: 0px 30px 0px 16px; }
+.story__mini-font {
+  margin-left: auto;
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.4);
+  transition: color 100ms ease 0s;
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', "ヒラギノ角ゴシック", 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ Pro W3',Roboto, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif; }
+.story__mini-image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 5px;
+  margin-bottom: 6px; }
+.story__date-font {
+  font-size: 32px;
+  font-weight: 600;
+  height: 32px;
+  line-height: 32px; }
+.story__yobi {
+  border: 1px solid;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  width: 22px;
+  height: 26px;
+  line-height: 26px;
+  margin-left: 6px; }
+.story__schedule {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  z-index: 1;
+  height: 38px;
+  font-family: Poppins, "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", ヒラギノ角ゴシック, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+  color: white;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  transform-origin: left top;
+  transform: scale(0.71875); }
+.story__target {
+  padding-top: 12px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1;
+  color: #6a6e71;
+  margin-bottom: 6px; }
+.story__description {
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 1.5;
+  font-size: 13px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  max-height: 58.5px;
+  color: #24282a;
+  transition: color 0.2s ease-in-out 0s;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "ヒラギノ角ゴシック", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", Roboto, "メイリオ", Meiryo, "ＭＳ Ｐゴシック"; }
 .story__description_under {
   font-weight: 600;
   overflow: hidden;
@@ -21,5 +97,39 @@
   color: #24282a;
   transition: color 0.2s ease-in-out 0s;
   font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "ヒラギノ角ゴシック", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", Roboto, "メイリオ", Meiryo, "ＭＳ Ｐゴシック"; }
+.story__content {
+  width: calc((100% - 24px) / 2.5);
+  margin-right: 16px;
+  flex-shrink: 0;
+  position: relative; }
+.story__horizon {
+  display: flex; }
+.story__mini-mini-image {
+  width: 100%;
+  height: 190px;
+  margin-right: 2px;
+  border-radius: 5px; }
+.story__shadow {
+  border-radius: 5px;
+  width: 100%;
+  height: 200px;
+  background-image: radial-gradient(circle at left top, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0) 129.375px); }
+.story__mini-mini-flame {
+  width: calc((100% - 16px) / 2);
+  margin-right: 16px;
+  flex-shrink: 0; }
+.story__title-area {
+  margin: 0px 17px; }
+.story__company-title {
+  -webkit-text-size-adjust: 270%;
+  margin-top: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.45;
+  color: rgba(0, 0, 0, 0.8);
+  outline: none;
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', "ヒラギノ角ゴシック", 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ Pro W3',Roboto, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif; }
 
 /*# sourceMappingURL=story.css.map */
