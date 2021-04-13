@@ -11,6 +11,8 @@ cromeの検証機能で無理やりスマホのサイズにしていたのがま
 <h3>text-size-ajust</h3>
 text-size-ajustは上記のブラウザの挙動を無効化したり、挙動を変更するときに使う。
 
+ドキュメント
+https://developer.mozilla.org/ja/docs/Web/CSS/text-size-adjust
 
 
 
