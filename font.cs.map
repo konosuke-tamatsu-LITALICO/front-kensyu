@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,KAAM;EACJ,eAAe,EAAE,IAAI;;AACrB,UAAO;EACL,UAAU,EAAE,qBAAqB;EACjC,KAAK,EAAE,kBAA0B;EACjC,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,QAAQ;EACxB,UAAU,EAAE,WAAW;EACvB,WAAW,EAAE,GAAG;EAChB,eAAe,EAAE,IAAI",
-"sources": ["scss/font.scss"],
-"names": [],
-"file": "font.cs"
-}
