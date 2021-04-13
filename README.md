@@ -1,5 +1,3 @@
-# front-kensyu
-
 <h2>text-size-ajustについて</h2>
 
 ウェブのwantedlyのページを見本にスケッチしていたが、fontsizeをpx指定してもそ見本のページとfontsizが一致してレンダリングされないという現象が起きていた。
