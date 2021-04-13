@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.story__mini-mini-flame {
+  width: calc((100% - 16px) / 2);
+  margin-right: 16px;
+  flex-shrink: 0; }
+.story__mini-mini-image {
+  width: 100%;
+  height: 190px;
+  margin-right: 2px;
+  border-radius: 5px; }
+.story__description_under {
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 1.5;
+  font-size: 16px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  max-height: 58.5px;
+  color: #24282a;
+  transition: color 0.2s ease-in-out 0s;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "ヒラギノ角ゴシック", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", Roboto, "メイリオ", Meiryo, "ＭＳ Ｐゴシック"; }
+
+/*# sourceMappingURL=story.css.map */

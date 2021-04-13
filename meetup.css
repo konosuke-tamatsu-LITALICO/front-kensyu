@@ -1,0 +1,61 @@
+@charset "UTF-8";
+.meetup__content {
+  width: calc((100% - 24px) / 2.5);
+  margin-right: 16px;
+  flex-shrink: 0;
+  position: relative; }
+.meetup__shadow {
+  border-radius: 5px;
+  width: 100%;
+  height: 200px;
+  background-image: radial-gradient(circle at left top, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0) 129.375px); }
+.meetup__schedule {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  z-index: 1;
+  height: 38px;
+  font-family: Poppins, "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", ヒラギノ角ゴシック, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+  color: white;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  transform-origin: left top;
+  transform: scale(0.71875); }
+.meetup__date-font {
+  font-size: 32px;
+  font-weight: 600;
+  height: 32px;
+  line-height: 32px; }
+.meetup__yobi {
+  border: 1px solid;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  width: 22px;
+  height: 26px;
+  line-height: 26px;
+  margin-left: 6px; }
+.meetup__target {
+  padding-top: 12px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1;
+  color: #6a6e71;
+  margin-bottom: 6px; }
+.meetup__description {
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 1.5;
+  font-size: 13px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  max-height: 58.5px;
+  color: #24282a;
+  transition: color 0.2s ease-in-out 0s;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "ヒラギノ角ゴシック", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", Roboto, "メイリオ", Meiryo, "ＭＳ Ｐゴシック"; }
+
+/*# sourceMappingURL=meetup.css.map */
